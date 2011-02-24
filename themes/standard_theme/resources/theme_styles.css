@@ -1,0 +1,38 @@
+/* ==========================================================================
+*  Project:   StandardTheme Theme Styles
+*  Copyright: ©2010 My Company, Inc.
+*  ==========================================================================
+*/
+
+/* 
+  Place any styles you want to define in this file.  You can also break your
+  styles into multiple files.  Just add them to your resources or .lrpoj
+  directories to be included in the build.
+*/
+
+/* Labels
+--------------------------------------------- */
+h1.big-label.sc-label-view.sc-regular-size {
+  font-size: 32px;
+  padding-top: 12px;
+  background: yellow;
+}
+
+/* Master List
+--------------------------------------------- */
+
+.details .master-list {
+  border-bottom: 1px solid #c2c2c2;
+  background: #f2f2f2;
+}
+
+/* Details
+--------------------------------------------- */
+
+.details > .firstName .lastName {
+  font-size: 24px;
+}
+
+.details > .address .company {
+  font-size: 18px;
+}
